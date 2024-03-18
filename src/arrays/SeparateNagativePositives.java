@@ -1,6 +1,6 @@
 package arrays;
 
-public class SeparateNagativeEments {
+public class SeparateNagativePositives {
 
     //1.sort the array and it will palace negatives first and the postives
     //2.secondly,we are taking 2 pointer approach one starting from 0th index and second start from last index of and array
