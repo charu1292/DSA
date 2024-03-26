@@ -5,6 +5,7 @@ import static java.lang.Math.log10;
 public class CountOfDigit {
 
     public static int extraction(int n){
+
         return (int) (log10(n)+1);
     }
 

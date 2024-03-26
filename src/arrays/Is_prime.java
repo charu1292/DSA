@@ -1,8 +1,6 @@
 package arrays;
 
 public class Is_prime {
-
-
     public static boolean is_prime(int n){
         for(int i=2;i<n;i++){
             if(n%i==0)
@@ -10,7 +8,6 @@ public class Is_prime {
         }
         return true;
     }
-
     public static void print_primes(int n){
         for(int i=2;i<n;i++) {
             if (is_prime(i)) {
