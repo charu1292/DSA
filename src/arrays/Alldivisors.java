@@ -7,8 +7,6 @@ public class Alldivisors {
                 System.out.print(i + ",");
             }
         }
-
-
     }
 
     public static void main(String[] args) {
