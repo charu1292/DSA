@@ -1,6 +1,6 @@
 package arrays;
 
-public class NthFabanacci {
+public class FabanacciNth {
 
 
     static int fabanacci(int n){

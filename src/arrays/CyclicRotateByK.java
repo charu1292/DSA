@@ -14,7 +14,7 @@ public class CyclicRotateByK {
     public static void leftrotate(int[] A,int k){
 
         int n =A.length;
-        k=k%n;
+        k=k%n;  // it gives at which position we need to rotate
         rotatefunc(A,0,k-1);
         rotatefunc(A,k,n-1);
         rotatefunc(A,0,n-1);
