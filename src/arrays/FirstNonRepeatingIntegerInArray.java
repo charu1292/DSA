@@ -29,7 +29,7 @@ public class FirstNonRepeatingIntegerInArray {
 
 
     public static void main(String[] args) {
-       int[] A={22,22,33,44,55,55};
+       int[] A={22,77,33,44,55,55,22};
         int c=nonRepeating(A);
         System.out.println(c);
     }

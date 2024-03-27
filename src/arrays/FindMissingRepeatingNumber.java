@@ -47,10 +47,10 @@ public class FindMissingRepeatingNumber {
     }
     public static void main(String[] args) {
         int[] A = {0, 2, 4, 4, 1, 3};
-//        placeNumber(A);
+       missingRepeatingNumber(A);
 
-        int[] ans=findMissingRepeatingNumbers(A);
-        System.out.println("The repeating and missing numbers are: {"
-                + ans[0] + ", " + ans[1] + "}");
+//        int[] ans=findMissingRepeatingNumbers(A);
+//        System.out.println("The repeating and missing numbers are: {"
+//                + ans[0] + ", " + ans[1] + "}");
     }
 }
