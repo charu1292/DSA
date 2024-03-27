@@ -35,7 +35,6 @@ public class BinarySearch {
             int x=77;
             int n= A.length;
             int result=getElement(A,x,0,n-1);
-
             if (result==-1)
                 System.out.println("data not found in array");
             else

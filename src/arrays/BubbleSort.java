@@ -3,15 +3,17 @@ package arrays;
 public class BubbleSort {
 
     ///time complexity  is n2
+    public static void bubble_sort(int[] arr) {
 
-    public static void bubble_sort(int[] A){
-        int n =A.length;
-        for (int i=0;i<n-1;i++){
-            for (int j=i+1;j<n;j++){
-                if(A[i]>A[j]){
-                    A[i]=A[i]+A[j];
-                    A[j]=A[i]-A[j];
-                    A[i]=A[i]-A[j];
+        boolean swapped = true;
+        for(int i = 0; i < arr.length - 1 && swapped; i++) {
+            swapped = false;
+            for(int j = 0; j < arr.length - i - 1; j++) {
+                if(arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true;
                 }
             }
         }
